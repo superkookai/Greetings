@@ -1,8 +1,8 @@
 //
-//  GreetingsApp.swift
-//  Greetings
+//  Greetings_MacApp.swift
+//  Greetings-Mac
 //
-//  Created by Weerawut Chaiyasomboon on 8/2/2567 BE.
+//  Created by Weerawut Chaiyasomboon on 11/2/2567 BE.
 //
 
 import SwiftUI

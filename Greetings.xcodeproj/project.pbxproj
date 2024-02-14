@@ -7,22 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0F97002B771E1000C69F46 /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F96FF2B771E1000C69F46 /* LandscapeGreetingsView.swift */; };
+		BF0F97022B771EDB00C69F46 /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97012B771EDB00C69F46 /* GreetingsTextView.swift */; };
+		BF0F97042B77210D00C69F46 /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97032B77210D00C69F46 /* RotatableCircleView.swift */; };
+		BF0F97062B77228500C69F46 /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97052B77228500C69F46 /* VerticalTitleView.swift */; };
+		BF0F97082B77255000C69F46 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97072B77255000C69F46 /* MainView.swift */; };
+		BF2A4F2B2B7878EA0000B17A /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F2A2B7878EA0000B17A /* LanguageOptionsView.swift */; };
+		BF2A4F2D2B7879850000B17A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F2C2B7879850000B17A /* Constants.swift */; };
+		BF2A4F302B7885F70000B17A /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F2F2B7885F70000B17A /* GreetingsTip.swift */; };
+		BF2A4F322B789EF00000B17A /* LanguageOptionsTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F312B789EF00000B17A /* LanguageOptionsTapView.swift */; };
+		BF2A4F3A2B78A2800000B17A /* Greetings_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F392B78A2800000B17A /* Greetings_MacApp.swift */; };
+		BF2A4F3E2B78A2810000B17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2A4F3D2B78A2810000B17A /* Assets.xcassets */; };
+		BF2A4F412B78A2810000B17A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2A4F402B78A2810000B17A /* Preview Assets.xcassets */; };
+		BF2A4F472B78A5910000B17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF50FDBD2B74B83700C6E32C /* Assets.xcassets */; };
+		BF2A4F482B78A5990000B17A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BF6EBB412B75E494006A2EAA /* Localizable.xcstrings */; };
+		BF2A4F492B78A64D0000B17A /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F2F2B7885F70000B17A /* GreetingsTip.swift */; };
+		BF2A4F4A2B78A6550000B17A /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDCA2B74C76E00C6E32C /* DataItemModel.swift */; };
+		BF2A4F4B2B78A6580000B17A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F2C2B7879850000B17A /* Constants.swift */; };
+		BF2A4F4C2B78A6A30000B17A /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDD02B74CCCC00C6E32C /* BackgroundView.swift */; };
+		BF2A4F4D2B78A6AD0000B17A /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDBB2B74B83600C6E32C /* GreetingsView.swift */; };
+		BF2A4F4E2B78A6B80000B17A /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDCE2B74CB2000C6E32C /* MessagesView.swift */; };
+		BF2A4F4F2B78A6BB0000B17A /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDCC2B74CABE00C6E32C /* TitleView.swift */; };
+		BF2A4F502B78A6CB0000B17A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDC82B74C22C00C6E32C /* TextView.swift */; };
+		BF2A4F512B78A72D0000B17A /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F96FF2B771E1000C69F46 /* LandscapeGreetingsView.swift */; };
+		BF2A4F522B78A7300000B17A /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97012B771EDB00C69F46 /* GreetingsTextView.swift */; };
+		BF2A4F532B78A7340000B17A /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97032B77210D00C69F46 /* RotatableCircleView.swift */; };
+		BF2A4F542B78A7370000B17A /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F97052B77228500C69F46 /* VerticalTitleView.swift */; };
+		BF2A4F552B78A73A0000B17A /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F2A2B7878EA0000B17A /* LanguageOptionsView.swift */; };
+		BF2A4F562B78A73E0000B17A /* LanguageOptionsTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F312B789EF00000B17A /* LanguageOptionsTapView.swift */; };
+		BF2A4F582B78A8C00000B17A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A4F572B78A8C00000B17A /* MainView.swift */; };
 		BF50FDBA2B74B83600C6E32C /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDB92B74B83600C6E32C /* GreetingsApp.swift */; };
-		BF50FDBC2B74B83600C6E32C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDBB2B74B83600C6E32C /* ContentView.swift */; };
+		BF50FDBC2B74B83600C6E32C /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDBB2B74B83600C6E32C /* GreetingsView.swift */; };
 		BF50FDBE2B74B83700C6E32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF50FDBD2B74B83700C6E32C /* Assets.xcassets */; };
 		BF50FDC22B74B83700C6E32C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF50FDC12B74B83700C6E32C /* Preview Assets.xcassets */; };
+		BF50FDC92B74C22C00C6E32C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDC82B74C22C00C6E32C /* TextView.swift */; };
+		BF50FDCB2B74C76E00C6E32C /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDCA2B74C76E00C6E32C /* DataItemModel.swift */; };
+		BF50FDCD2B74CABE00C6E32C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDCC2B74CABE00C6E32C /* TitleView.swift */; };
+		BF50FDCF2B74CB2000C6E32C /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDCE2B74CB2000C6E32C /* MessagesView.swift */; };
+		BF50FDD12B74CCCC00C6E32C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50FDD02B74CCCC00C6E32C /* BackgroundView.swift */; };
+		BF6EBB3E2B75D9C8006A2EAA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6EBB3D2B75D9C8006A2EAA /* Launch Screen.storyboard */; };
+		BF6EBB422B75E494006A2EAA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BF6EBB412B75E494006A2EAA /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF0F96FF2B771E1000C69F46 /* LandscapeGreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGreetingsView.swift; sourceTree = "<group>"; };
+		BF0F97012B771EDB00C69F46 /* GreetingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTextView.swift; sourceTree = "<group>"; };
+		BF0F97032B77210D00C69F46 /* RotatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCircleView.swift; sourceTree = "<group>"; };
+		BF0F97052B77228500C69F46 /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
+		BF0F97072B77255000C69F46 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BF2A4F2A2B7878EA0000B17A /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		BF2A4F2C2B7879850000B17A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BF2A4F2F2B7885F70000B17A /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
+		BF2A4F312B789EF00000B17A /* LanguageOptionsTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsTapView.swift; sourceTree = "<group>"; };
+		BF2A4F372B78A2800000B17A /* Greetings-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greetings-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2A4F392B78A2800000B17A /* Greetings_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greetings_MacApp.swift; sourceTree = "<group>"; };
+		BF2A4F3D2B78A2810000B17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2A4F402B78A2810000B17A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF2A4F422B78A2810000B17A /* Greetings_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings_Mac.entitlements; sourceTree = "<group>"; };
+		BF2A4F572B78A8C00000B17A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BF50FDB62B74B83600C6E32C /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF50FDB92B74B83600C6E32C /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
-		BF50FDBB2B74B83600C6E32C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF50FDBB2B74B83600C6E32C /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
 		BF50FDBD2B74B83700C6E32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF50FDBF2B74B83700C6E32C /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		BF50FDC12B74B83700C6E32C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF50FDC82B74C22C00C6E32C /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		BF50FDCA2B74C76E00C6E32C /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
+		BF50FDCC2B74CABE00C6E32C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		BF50FDCE2B74CB2000C6E32C /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		BF50FDD02B74CCCC00C6E32C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BF6EBB3D2B75D9C8006A2EAA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BF6EBB412B75E494006A2EAA /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BF2A4F342B78A2800000B17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF50FDB32B74B83600C6E32C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +98,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF2A4F2E2B7885D60000B17A /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A4F2F2B7885F70000B17A /* GreetingsTip.swift */,
+			);
+			path = Tip;
+			sourceTree = "<group>";
+		};
+		BF2A4F382B78A2800000B17A /* Greetings-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A4F392B78A2800000B17A /* Greetings_MacApp.swift */,
+				BF2A4F572B78A8C00000B17A /* MainView.swift */,
+				BF2A4F3D2B78A2810000B17A /* Assets.xcassets */,
+				BF2A4F422B78A2810000B17A /* Greetings_Mac.entitlements */,
+				BF2A4F3F2B78A2810000B17A /* Preview Content */,
+			);
+			path = "Greetings-Mac";
+			sourceTree = "<group>";
+		};
+		BF2A4F3F2B78A2810000B17A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A4F402B78A2810000B17A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF2A4F462B78A3620000B17A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BF50FDBD2B74B83700C6E32C /* Assets.xcassets */,
+				BF6EBB412B75E494006A2EAA /* Localizable.xcstrings */,
+				BF6EBB432B75FBA0006A2EAA /* Views */,
+				BF6EBB442B75FBAB006A2EAA /* Model */,
+				BF2A4F2E2B7885D60000B17A /* Tip */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		BF50FDAD2B74B83500C6E32C = {
 			isa = PBXGroup;
 			children = (
+				BF2A4F462B78A3620000B17A /* Shared */,
 				BF50FDB82B74B83600C6E32C /* Greetings */,
+				BF2A4F382B78A2800000B17A /* Greetings-Mac */,
 				BF50FDB72B74B83600C6E32C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				BF50FDB62B74B83600C6E32C /* Greetings.app */,
+				BF2A4F372B78A2800000B17A /* Greetings-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,8 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				BF50FDB92B74B83600C6E32C /* GreetingsApp.swift */,
-				BF50FDBB2B74B83600C6E32C /* ContentView.swift */,
-				BF50FDBD2B74B83700C6E32C /* Assets.xcassets */,
+				BF0F97072B77255000C69F46 /* MainView.swift */,
+				BF6EBB3D2B75D9C8006A2EAA /* Launch Screen.storyboard */,
 				BF50FDBF2B74B83700C6E32C /* Greetings.entitlements */,
 				BF50FDC02B74B83700C6E32C /* Preview Content */,
 			);
@@ -69,9 +177,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BF6EBB432B75FBA0006A2EAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF50FDBB2B74B83600C6E32C /* GreetingsView.swift */,
+				BF50FDD02B74CCCC00C6E32C /* BackgroundView.swift */,
+				BF50FDCE2B74CB2000C6E32C /* MessagesView.swift */,
+				BF50FDCC2B74CABE00C6E32C /* TitleView.swift */,
+				BF50FDC82B74C22C00C6E32C /* TextView.swift */,
+				BF0F96FF2B771E1000C69F46 /* LandscapeGreetingsView.swift */,
+				BF0F97012B771EDB00C69F46 /* GreetingsTextView.swift */,
+				BF0F97032B77210D00C69F46 /* RotatableCircleView.swift */,
+				BF0F97052B77228500C69F46 /* VerticalTitleView.swift */,
+				BF2A4F2A2B7878EA0000B17A /* LanguageOptionsView.swift */,
+				BF2A4F312B789EF00000B17A /* LanguageOptionsTapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF6EBB442B75FBAB006A2EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF50FDCA2B74C76E00C6E32C /* DataItemModel.swift */,
+				BF2A4F2C2B7879850000B17A /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BF2A4F362B78A2800000B17A /* Greetings-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2A4F432B78A2810000B17A /* Build configuration list for PBXNativeTarget "Greetings-Mac" */;
+			buildPhases = (
+				BF2A4F332B78A2800000B17A /* Sources */,
+				BF2A4F342B78A2800000B17A /* Frameworks */,
+				BF2A4F352B78A2800000B17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Greetings-Mac";
+			productName = "Greetings-Mac";
+			productReference = BF2A4F372B78A2800000B17A /* Greetings-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BF50FDB52B74B83600C6E32C /* Greetings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF50FDC52B74B83700C6E32C /* Build configuration list for PBXNativeTarget "Greetings" */;
@@ -99,6 +251,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					BF2A4F362B78A2800000B17A = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BF50FDB52B74B83600C6E32C = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -111,6 +266,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				he,
 			);
 			mainGroup = BF50FDAD2B74B83500C6E32C;
 			productRefGroup = BF50FDB72B74B83600C6E32C /* Products */;
@@ -118,16 +275,30 @@
 			projectRoot = "";
 			targets = (
 				BF50FDB52B74B83600C6E32C /* Greetings */,
+				BF2A4F362B78A2800000B17A /* Greetings-Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BF2A4F352B78A2800000B17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A4F412B78A2810000B17A /* Preview Assets.xcassets in Resources */,
+				BF2A4F472B78A5910000B17A /* Assets.xcassets in Resources */,
+				BF2A4F482B78A5990000B17A /* Localizable.xcstrings in Resources */,
+				BF2A4F3E2B78A2810000B17A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF50FDB42B74B83600C6E32C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6EBB3E2B75D9C8006A2EAA /* Launch Screen.storyboard in Resources */,
 				BF50FDC22B74B83700C6E32C /* Preview Assets.xcassets in Resources */,
+				BF6EBB422B75E494006A2EAA /* Localizable.xcstrings in Resources */,
 				BF50FDBE2B74B83700C6E32C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,18 +306,113 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BF2A4F332B78A2800000B17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2A4F4E2B78A6B80000B17A /* MessagesView.swift in Sources */,
+				BF2A4F4C2B78A6A30000B17A /* BackgroundView.swift in Sources */,
+				BF2A4F522B78A7300000B17A /* GreetingsTextView.swift in Sources */,
+				BF2A4F4B2B78A6580000B17A /* Constants.swift in Sources */,
+				BF2A4F4A2B78A6550000B17A /* DataItemModel.swift in Sources */,
+				BF2A4F532B78A7340000B17A /* RotatableCircleView.swift in Sources */,
+				BF2A4F492B78A64D0000B17A /* GreetingsTip.swift in Sources */,
+				BF2A4F562B78A73E0000B17A /* LanguageOptionsTapView.swift in Sources */,
+				BF2A4F4F2B78A6BB0000B17A /* TitleView.swift in Sources */,
+				BF2A4F512B78A72D0000B17A /* LandscapeGreetingsView.swift in Sources */,
+				BF2A4F582B78A8C00000B17A /* MainView.swift in Sources */,
+				BF2A4F3A2B78A2800000B17A /* Greetings_MacApp.swift in Sources */,
+				BF2A4F4D2B78A6AD0000B17A /* GreetingsView.swift in Sources */,
+				BF2A4F502B78A6CB0000B17A /* TextView.swift in Sources */,
+				BF2A4F552B78A73A0000B17A /* LanguageOptionsView.swift in Sources */,
+				BF2A4F542B78A7370000B17A /* VerticalTitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF50FDB22B74B83600C6E32C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF50FDBC2B74B83600C6E32C /* ContentView.swift in Sources */,
+				BF50FDCB2B74C76E00C6E32C /* DataItemModel.swift in Sources */,
+				BF0F97082B77255000C69F46 /* MainView.swift in Sources */,
+				BF50FDC92B74C22C00C6E32C /* TextView.swift in Sources */,
+				BF0F97022B771EDB00C69F46 /* GreetingsTextView.swift in Sources */,
+				BF0F97042B77210D00C69F46 /* RotatableCircleView.swift in Sources */,
+				BF50FDCF2B74CB2000C6E32C /* MessagesView.swift in Sources */,
+				BF2A4F302B7885F70000B17A /* GreetingsTip.swift in Sources */,
+				BF2A4F322B789EF00000B17A /* LanguageOptionsTapView.swift in Sources */,
+				BF50FDD12B74CCCC00C6E32C /* BackgroundView.swift in Sources */,
+				BF50FDBC2B74B83600C6E32C /* GreetingsView.swift in Sources */,
+				BF0F97002B771E1000C69F46 /* LandscapeGreetingsView.swift in Sources */,
+				BF2A4F2B2B7878EA0000B17A /* LanguageOptionsView.swift in Sources */,
 				BF50FDBA2B74B83600C6E32C /* GreetingsApp.swift in Sources */,
+				BF2A4F2D2B7879850000B17A /* Constants.swift in Sources */,
+				BF0F97062B77228500C69F46 /* VerticalTitleView.swift in Sources */,
+				BF50FDCD2B74CABE00C6E32C /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BF2A4F442B78A2810000B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Greetings-Mac/Greetings_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greetings-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = T9MD4URZFH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superkookai.Greetings-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF2A4F452B78A2810000B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Greetings-Mac/Greetings_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greetings-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = T9MD4URZFH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superkookai.Greetings-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BF50FDC32B74B83700C6E32C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +546,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -292,7 +559,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.superkookai.Greetings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +586,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -330,7 +599,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.superkookai.Greetings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,6 +610,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BF2A4F432B78A2810000B17A /* Build configuration list for PBXNativeTarget "Greetings-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2A4F442B78A2810000B17A /* Debug */,
+				BF2A4F452B78A2810000B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF50FDB12B74B83500C6E32C /* Build configuration list for PBXProject "Greetings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
